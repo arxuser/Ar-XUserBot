@@ -357,7 +357,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "```Selamat... 💉 Ar-XUserBot 💉 sudah aktif!!```")
+    await bot.send_message(BOTLOG_CHATID, "```Selamat... ✨ Ar-XUserBot ✨ sudah aktif!!```")
     return
 
 with bot:
@@ -445,7 +445,7 @@ with bot:
             try:
                 tgbotusername = BOT_USERNAME
                 if tgbotusername is not None:
-                    results = await event.client.inline_query(tgbotusername, "@Geez-Project")
+                    results = await event.client.inline_query(tgbotusername, "@istme_arXubot")
                     await results[0].click(
                         event.chat_id, reply_to=event.reply_to_msg_id, hide_via=True
                     )
@@ -472,11 +472,11 @@ with bot:
                     buttons=[
                         [
                             Button.url("📢 Channel Support",
-                                       "t.me/GeezProject"),
+                                       "t.me/arxsupport"),
                             Button.url("🚨 Group support",
-                                       "t.me/GeezSupportGroup")],
+                                       "t.me/arxsupport")],
                         [Button.url("👤 Development",
-                                    "t.me/VckyouuBitch")],
+                                    "t.me/itsme_arr")],
                     ]
                 )
 
@@ -516,29 +516,29 @@ with bot:
                 result = builder.photo(
                     file=geezlogo,
                     link_preview=False,
-                    text=f"⚡𝗚𝗲𝗲𝘇-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡\n\n⚡**Owner : {DEFAULTUSER}**\n\n⚡ **Bot Ver :** `5.0`\n⚡ **𝗠odules :** `{len(plugins)}`\n\n⚡ **Dev : VCKYOUUU **".format(
+                    text=f"✨𝘼𝙧𝙓-𝙐𝙎𝙀𝙍𝘽𝙊𝙏✨\n\n✨**Owner : {DEFAULTUSER}**\n\n✨ **Bot Ver :** `5.0`\n✨ **𝗠odules :** `{len(plugins)}`\n\n⚡ **Dev : VCKYOUUU **".format(
                         len(dugmeler),
                     ),
                     buttons=buttons,
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Dari ⚡𝗚𝗲𝗲𝘇-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ ",
+                    "Bantuan Dari ✨𝘼𝙧𝙓-𝙐𝙎𝙀𝙍𝘽𝙊𝙏✨ ",
                     text="Daftar Plugins",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    " ⚡𝗚𝗲𝗲𝘇-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ ",
-                    text="""**⚡𝗚𝗲𝗲𝘇-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡\n\n Anda Bisa Membuat Geez Userbot Anda Sendiri Dengan Cara:** __TEKEN DIBAWAH INI!__ 👇""",
+                    " ✨𝘼𝙧𝙓-𝙐𝙎𝙀𝙍𝘽𝙊𝙏✨ ",
+                    text="""**✨𝘼𝙧𝙓-𝙐𝙎𝙀𝙍𝘽𝙊𝙏✨\n\n Anda Bisa Membuat Ar-X Userbot Anda Sendiri Dengan Cara:** __TEKEN DIBAWAH INI!__ 👇""",
                     buttons=[
                         [
                             custom.Button.url(
-                                "⚡𝗚𝗲𝗲𝘇-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡",
+                                "✨𝘼𝙧𝙓-𝙐𝙎𝙀𝙍𝘽𝙊𝙏✨",
                                 "https://github.com/vckyou/Geez-Userbot"),
                             custom.Button.url(
                                 "OWNER",
-                                "t.me/Vckyouubitch")]],
+                                "t.me/itsme_arr")]],
                     link_preview=False,
                 )
             await event.answer([result] if result else None)
@@ -574,9 +574,9 @@ with bot:
                     buttons=[
                         [
                             Button.url("📢 Channel Support",
-                                       "t.me/GeezProject"),
+                                       "t.me/arxsupport"),
                             Button.url("🚨 Group support",
-                                       "t.me/GeezSupportGroup")],
+                                       "t.me/arxsupport")],
                         [Button.inline("Open Menu", data="nepo")],
                         [custom.Button.inline(
                             "Close", b"close")],
