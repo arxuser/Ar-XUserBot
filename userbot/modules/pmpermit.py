@@ -37,7 +37,7 @@ DEF_UNAPPROVED_MSG = (
     " Atau Saya Akan Otomatis\n"
     " Mereport & Block Kamu\n"
     " Silahkan Tunggu Sampai\n"
-    f" {DEFAULTUSER} Menerima Pesanmu\n"
+    f" {DEFAULTUSER} Menerima Pesanmu SAYANG\n"
     "─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇\n\n"00412401
     
     f"- ©Bot Assisten {DEFAULTUSER}\n"
