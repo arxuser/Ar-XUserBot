@@ -84,6 +84,28 @@ async def typewriter(typew):
                      "\n╱┃┃┃┃╭╮┃┃┃┃╭╮┃┃"
                      "\n╭╯╰╯┃╰╯┃╰╯┃╰╯┃╰╮"
                      "\n╰━━━┻━━┻━━┻━━┻━╯")
+    
+    # Create by myself @localheart
+    
+  
+@register(outgoing=True, pattern='^.admin(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**Ipuy CAKEP☑️**")
+    await typew.edit("**Ipuy CAKEP✅**")
+    sleep(2)
+    await typew.edit("**Ar SAYANGNYA KAMU☑️**")
+    await typew.edit("**Ar SAYANGNYA KAMU✅**")
+    sleep(2)
+    await typew.edit("**Fira IBU NEGARA KITA☑️**")
+    await typew.edit("**Fira IBU NEGARA KITA✅**")
+    sleep(2)
+    await typew.edit("**Zale DIA SANGEAN JAN DI TEMENIN☑️**")
+    await typew.edit("**Zale DIA SANGEAN JAN DI TEMENIN✅**")
+    sleep(2)
+    await typew.edit("**BERIKUT DAFYAR ADMIN DI SINI, YANG GA KEDAFTAR LO JARANG ON COK !**")
+    sleep(3
+)
 
 
 CMD_HELP.update({
@@ -94,6 +116,6 @@ CMD_HELP.update({
     \n↳ : Coba aja hehehe.\
     \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.idiot`\
     \n↳ : u're ediot xixixi.\
-    \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `kosong`\
-    \n↳ : Tunggu update selanjutnya kawan."
+    \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.admin`\
+    \n↳ : Coba aja wkwkw."
 })
