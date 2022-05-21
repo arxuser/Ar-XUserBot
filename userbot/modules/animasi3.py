@@ -1750,8 +1750,8 @@ async def koc(e):
         await e.edit("8✊===D💦💦💦💦💦💦💦💦")
         await e.edit("8===✊D💦💦💦💦💦💦💦💦💦")
         await e.edit("8==✊=D💦💦💦💦💦💦💦💦💦💦")
-        await e.edit("8=✊==D Lah Kok Habis?")
-        await e.edit("😭😭😭😭")
+        await e.edit("8=✊==D Lah Kok Habis Sayang?")
+        await e.edit("GIMANA ENAK SAYANG? 💕")
 
 
 @register(outgoing=True, pattern="^.gas$")
