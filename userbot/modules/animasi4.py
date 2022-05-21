@@ -346,7 +346,7 @@ async def koc(e):
         await e.edit("🚶                              🐢")
         await e.edit("🚶                               🐢")
         await e.edit("🚶                                🐢")
-        await e.edit("`GABUT`")
+        await e.edit("`MAAF LAGI GABUT`")
 
 
 @register(outgoing=True, pattern='^.sangean(?: |$)(.*)')
@@ -354,15 +354,15 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`Kalo Sange Modal`")
     sleep(1)
-    await typew.edit("`Jangan Modal Kontol Doang`")
+    await typew.edit("`Jangan Modal Tytyd Doang`")
     sleep(1)
     await typew.edit("`Goblook Emang`")
     sleep(1)
     await typew.edit("`Kelamaan Nge Jomblo Sih`")
     sleep(1)
-    await typew.edit("`Jadinya Gitu, Sange Berat`")
+    await typew.edit("`Jadinya Gitu, Sang* Berat`")
     sleep(1)
-    await typew.edit("`MAKANYA KALO HIDUP HARUS GANTENG KONTOOOLL`")
+    await typew.edit("`MAKANYA KALO HIDUP HARUS GANTENG KAWAND`")
 # Create by myself @localheart
 
 
@@ -413,7 +413,7 @@ async def _(event):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit("`Hai Anak Kontol 🙈, Jangan Lupa Makan Yaa`")
+    await typew.edit("`Hai Anak Yatim 🙈, Jangan Lupa Makan Yaa`")
     sleep(1)
     await typew.edit("`Jangan Bilang Lu Ga Dikasih Makan Sama Ortu 😁`")
     sleep(1)
