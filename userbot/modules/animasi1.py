@@ -47,11 +47,11 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`\n(\\_/)`"
                      "`\n(●_●)`"
-                     "`\n />❤️ *Ini Buat Kamu`")
+                     "`\n />❤️ *Ini Buat Kamu, Ga Mau Ya`")
     sleep(3)
     await typew.edit("`\n(\\_/)`"
                      "`\n(●_●)`"
-                     "`\n/>💔  *Aku Ambil Lagi`")
+                     "`\n/>💔  *Ya Uda, Aku Ambil Lagi`")
     sleep(2)
     await typew.edit("`\n(\\_/)`"
                      "`\n(●_●)`"
@@ -89,7 +89,7 @@ async def _(event):
             "😎 \n/\\_,__😫 \n  //    //       \\",
             "😖 \n/\\_,💦_😋  \n  //         //        \\",
             "  😭      ☺️ \n  /|\\   /(👶)\\ \n  /!\\   / \\ ",
-            "`TAMAT 😅`"]
+            "`TAMAT, MAAF AR SESAT  😅`"]
 
         for i in animation_ttl:
 
@@ -135,7 +135,7 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`\n(\\_/)`"
                      "`\n(●_●)`"
-                     "`\n />💖 *Ini Buat Kamu`")
+                     "`\n />💖 *Ini Buat Kamu Mau Ga?`")
     sleep(2)
     await typew.edit("`\n(\\_/)`"
                      "`\n(●_●)`"
