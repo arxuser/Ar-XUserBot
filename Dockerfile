@@ -1,7 +1,7 @@
 # We're using Ubuntu 20.10
 FROM vckyouuu/geezprojects:buster
 
-RUN git clone -b Ar-XUserBot https://github.com/arxuser/Ar-XUserBot /root/userbot
+RUN git clone -b Ar-Xuserbot https://github.com/arxuser/Ar-XUserBot /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
