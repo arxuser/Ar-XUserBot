@@ -1,5 +1,5 @@
 # We're using Ubuntu 20.10
-FROM ArMhd/Ar-XUserBot:buster
+FROM vckyouuu/geezprojects:buster
 
 RUN git clone -b Ar-XUserBot https://github.com/arxuser/Ar-XUserBot /root/userbot
 RUN mkdir /root/userbot/.bin
